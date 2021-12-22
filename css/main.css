@@ -1,0 +1,121 @@
+@import url("https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap");
+.main {
+  background: #e5eff5;
+  font-family: "Karla", sans-serif;
+  display: grid;
+  justify-content: center;
+  align-content: center; }
+
+.price-grid {
+  margin: 4em 2em;
+  display: grid;
+  grid-template-columns: minmax(300px, 560px);
+  box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.1); }
+  .price-grid__item {
+    padding: 7%; }
+
+.block-info {
+  border-radius: 5px 5px 0 0;
+  background: #fff; }
+  .block-info__title {
+    color: #2ab2af;
+    margin-top: 9px;
+    margin-bottom: 1em;
+    font-size: 22px; }
+  .block-info__subtitle {
+    color: #c0df34;
+    font-weight: 700; }
+  .block-info__text {
+    color: #98a6bd;
+    font-size: 14px;
+    line-height: 1.6rem; }
+
+.block-sign-up {
+  background: #2ab2af;
+  color: #fff; }
+  .block-sign-up__title {
+    margin-top: 3px; }
+  .block-sign-up__price {
+    font-size: 2rem;
+    font-weight: 700;
+    margin: 0;
+    display: flex; }
+    .block-sign-up__price-text {
+      font-weight: 400;
+      font-size: 16px;
+      opacity: 0.4;
+      margin: auto 10px; }
+  .block-sign-up__text {
+    margin-top: 6px; }
+  .block-sign-up__btn {
+    border: none;
+    background: #c0df34;
+    color: #fff;
+    margin-top: 15px;
+    font-size: 16px;
+    font-weight: 700;
+    width: 100%;
+    padding: 15px 0;
+    border-radius: 5px;
+    box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.1);
+    cursor: pointer; }
+
+.block-why-us {
+  border-radius: 0 0 5px 5px;
+  background: #4abebd;
+  color: #fff; }
+  .block-why-us__title {
+    margin-top: 0;
+    font-weight: 700; }
+  .block-why-us__list {
+    font-size: 15px;
+    list-style: none;
+    padding: 0;
+    line-height: 1.3rem;
+    opacity: 0.6;
+    margin-bottom: 0; }
+
+.attribution {
+  position: absolute;
+  bottom: 0;
+  margin: auto; }
+
+@media screen and (min-width: 580px) {
+  .main {
+    height: 100vh;
+    min-height: 430px; }
+
+  .price-grid {
+    grid-template-columns: 270px 270px; }
+    .price-grid__item {
+      padding: 20px 30px; }
+
+  .block-info {
+    border-radius: 5px 5px 0 0;
+    grid-column: span 2; }
+    .block-info__subtitle {
+      margin-bottom: 0; }
+    .block-info__text {
+      margin-top: 10px; }
+
+  .block-sign-up {
+    border-radius: 0 0 0 5px; }
+    .block-sign-up__title {
+      margin-top: 12px;
+      font-size: 16px; }
+    .block-sign-up__text {
+      font-size: 14px; }
+    .block-sign-up__btn {
+      margin: 10px 0;
+      padding: 12px 0; }
+
+  .block-why-us {
+    border-radius: 0 0 5px 0; }
+    .block-why-us__title {
+      margin-top: 12px;
+      font-size: 16px; }
+    .block-why-us__list {
+      font-size: 12px;
+      line-height: 1.1rem; } }
+
+/*# sourceMappingURL=main.css.map */
